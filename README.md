@@ -29,7 +29,7 @@ A real-time AI-powered Driver Drowsiness Detection Web Application built using *
 ![Home Page](images/1.png)
 
 ### Detection Dashboard
-![Detection Dashboard](images/2.png)
+![Drowsiness Detection](images/2.png)
 
 ### Drowsiness Detection
 ![Drowsiness Detection](images/3.png)
@@ -57,18 +57,6 @@ Drowsiness-Detection-Web-App/
 ├── requirements.txt
 └── shape_predictor_68_face_landmarks.dat
 ```
-
-## Screenshots
-
-### Home Page
-![Home Page](images/1.png)
-
-### Detection Dashboard
-![Drowsiness Detectio](images/2.png)
-
-### Drowsiness Detection
-![Drowsiness Detection](images/3.png)
-## Future Improvements
 
 - MediaPipe / YOLOv8 integration
 - Browser-based webcam support
