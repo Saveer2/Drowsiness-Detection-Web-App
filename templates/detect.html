@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Detection Dashboard</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',filename='css/detect.css') }}">
+
+</head>
+
+<body>
+
+<header>
+
+<h1> Driver Monitoring Dashboard</h1>
+
+<a href="{{ url_for('home') }}" class="home">
+
+ HOME
+
+</a>
+
+</header>
+
+<div class="container">
+
+<div class="camera">
+
+<img src="{{ url_for('video') }}" id="video">
+
+</div>
+
+<div class="dashboard">
+
+<div class="card">
+
+<h2>Status</h2>
+
+<p id="message">
+
+Monitoring...
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>EAR</h2>
+
+<p id="ear">
+
+--
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>MAR</h2>
+
+<p id="mar">
+
+--
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Alert</h2>
+
+<p id="alert">
+
+No Alert
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static',filename='js/script.js') }}"></script>
+
+</body>
+
+<footer>
+    Driver Drowsiness Detection System © 2026
+</footer>
+
+</html>

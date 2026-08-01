@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Driver Drowsiness Detection</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="overlay">
+
+    <div class="hero">
+
+        <h1> Driver Drowsiness Detection System</h1>
+
+        <h3>AI Powered Real-Time Driver Monitoring</h3>
+
+        <p>
+
+            Detect drowsiness and yawning using
+            Computer Vision, Machine Learning and
+            Facial Landmark Detection.
+
+        </p>
+
+        <div class="features">
+
+            <div class="feature">
+                <br>
+                Eye Detection
+            </div>
+
+            <div class="feature">
+                <br>
+                Drowsiness
+            </div>
+
+            <div class="feature">
+                <br>
+                Yawning
+            </div>
+
+            <div class="feature">
+                <br>
+                Voice Alert
+            </div>
+
+        </div>
+
+        <a href="{{ url_for('detect') }}">
+
+            <button>
+
+                ▶ START DETECTION
+
+            </button>
+
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
