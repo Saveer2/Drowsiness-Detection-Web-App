@@ -58,11 +58,6 @@ Drowsiness-Detection-Web-App/
 └── shape_predictor_68_face_landmarks.dat
 ```
 
-- MediaPipe / YOLOv8 integration
-- Browser-based webcam support
-- Cloud deployment
-- Driver analytics dashboard
-
 ## Author
 
 **Saveer More**
